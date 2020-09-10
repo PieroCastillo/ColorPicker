@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <OutputType>Library</OutputType>
     <LangVersion>8.0</LangVersion>
     <Nullable>disable</Nullable>
@@ -45,7 +45,7 @@ Includes:
 
 
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.10.0-preview2" />
+    <PackageReference Include="Avalonia" Version="0.10.0-preview5" />
     <PackageReference Include="MathNet.Numerics" Version="4.12.0" />
   </ItemGroup>
 </Project>
